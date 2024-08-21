@@ -8,5 +8,4 @@ spec:
   targets:
     - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/dotnetcore.yaml
     - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/guestbook.yaml
-    - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/guestbook.yaml
     - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/janus-idp-website.yaml
