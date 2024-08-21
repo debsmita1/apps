@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: apps-
-  annotations:
-    github.com/project-slug: debsmita1/apps
+  name: entities
+  description: a collection of all the catalog entities
 spec:
-  type: other
-  lifecycle: unknown
-  owner: user:default/debsmita1
+  type: url
+  targets:
+    - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/dotnetcore.yaml
+    - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/guestbook.yaml
+    - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/guestbook.yaml
+    - https://github.com/PatAKnight/backstage-components/blob/main/catalog-entities/janus-idp/components/janus-idp-website.yaml
